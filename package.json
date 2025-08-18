@@ -4,7 +4,9 @@
   "description": "A JavaScript-based restaurant landing page built using **ES Modules (ESM)**, **npm**, and **Webpack**.   This project is part of *The Odin Project* curriculum, focusing on modular JavaScript, asset bundling, and dynamic DOM generation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "wepack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
