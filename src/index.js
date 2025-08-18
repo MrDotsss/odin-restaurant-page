@@ -2,12 +2,14 @@ import "./styles.css";
 import "./styles.css";
 
 import HomeScreen from "./home-screen.js";
+import MenuScreen from "./menu-screen.js";
 
 const content = document.querySelector(".content");
 const nav = document.querySelector("header nav");
 
 const screens = {
   home: new HomeScreen("home", transitionScreen),
+  menu: new MenuScreen("menu", transitionScreen),
 };
 
 let currentScreen;

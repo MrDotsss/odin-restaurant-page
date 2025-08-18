@@ -13,4 +13,9 @@ function hrLine() {
   return document.createElement("hr");
 }
 
-export { Screen, hrLine };
+const priceFormat = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
+
+export { Screen, hrLine, priceFormat };
