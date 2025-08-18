@@ -220,3 +220,32 @@ button:hover {
 .menu-card:hover .price {
   text-decoration: underline;
 }
+
+/* Contacts */
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  margin: 7rem 1.5rem;
+}
+
+.contact-card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 4px var(--border);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.contact-card p {
+  width: max(50%, 90%);
+}
+
+.contact-card ul {
+  list-style: none;
+}
