@@ -1,0 +1,20 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "A JavaScript-based restaurant landing page built using **ES Modules (ESM)**, **npm**, and **Webpack**.   This project is part of *The Odin Project* curriculum, focusing on modular JavaScript, asset bundling, and dynamic DOM generation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDotsss/odin-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDotsss/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/MrDotsss/odin-restaurant-page#readme"
+}
